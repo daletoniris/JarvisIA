@@ -4,7 +4,7 @@
 # -*- coding: utf-8 -*-
 # JarvisIA is an idea of Daniel Dieser @initiasur, @NiperiaLab, independent robotics researcher and I.A. JarvisIA is the first voice assistant in Spanish and was created to encourage the use and development of Artificial Intelligence technologies among Latinos.
 #The collaborators of this development are a cool team that were students of programming and hacking Daniel Dieser in the city of Puerto Madryn, Argentina. They are: Dante Vargas, Cristian Aparicio, Mauricio Vega, Pichu @MgMoy1, and Matias Gimenez.
-#si quieres que jarvisIA escriba twitters usa este módulo
+#si quieres que jarvisIA escriba twitts usa este módulo
 import tweepy
 from keys import *
 import sys
@@ -23,7 +23,7 @@ def tuitear(tweetear):
 
 
 
-#con esta funcion obtengo los 5 tweets mas recientes de la busqueda que quiero
+#con esta funcion obtengo los 5 twitts mas recientes de la busqueda que quiero
 #en ITMS va la cantidad total de tweets que queremos que nos devuelva
 #en COUNT va la cantidad de tweets que pueden entrar en cada pagina
 def buscartuits(tweetear):
@@ -43,6 +43,6 @@ def buscartuits(tweetear):
                 #os.system('google_speech -l es "{} " -e speed 1 pitch -600 '.format(tweetear))
 
 buscartuits(tweetear)
-#tuitear(tweetear)
+#twitear(twitear)
 #os.system('google_speech -l es "{} " -e speed 1 pitch -600 '.format(texto))
 
