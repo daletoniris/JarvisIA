@@ -29,7 +29,7 @@ Happy hacking!!
 
 
 
-JarvisIA es una idea de Daniel Dieser @initiasur, @NiperiaLab, investigador de robótica independiente y I.A. JarvisIA es el primer asistente de voz en español y fue creado para fomentar el uso y desarrollo de tecnologías de Inteligencia Artificial entre los latinos. Los colaboradores de este desarrollo son un equipo muy loco y genial que fueron estudiantes de programación y piratería de Daniel Dieser en la ciudad de Puerto Madryn, Argentina. Ellos son: Dante Vargas, Cristian Aparicio, Mauricio Vega, Pichu y Matías Giménez
+JarvisIA es una idea de Daniel Dieser @initiasur, @NiperiaLab, investigador de robótica independiente y I.A. JarvisIA es el primer asistente de voz en español y fue creado para fomentar el uso y desarrollo de tecnologías de Inteligencia Artificial entre los latinos. Los colaboradores de este desarrollo son un equipo muy loco y genial que fueron estudiantes de programación y hacking de Daniel Dieser en la ciudad de Puerto Madryn, Argentina. Ellos son: Dante Vargas, Cristian Aparicio, Mauricio Vega, Pichu y Matías Giménez
 
 https://www.youtube.com/watch?v=0dOnX5DsTNM&t=30s
 
