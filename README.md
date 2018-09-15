@@ -25,3 +25,22 @@ To start alone: ​​say words like: "Hello Jarvis" or "I want to hear travis" 
 We hope you enjoy it a lot and you can learn by playing with it, we have not released all the code but a great part to encourage the development of voice assistants in Latin America and because we know that the way to learn is reading another code and testing so do not be afraid and have fun! 
 Once you have everything ready you just have to run: python3 speakyou.py
 Happy hacking!!
+
+
+
+
+JarvisIA es una idea de Daniel Dieser @initiasur, @NiperiaLab, investigador de robótica independiente y I.A. JarvisIA es el primer asistente de voz en español y fue creado para fomentar el uso y desarrollo de tecnologías de Inteligencia Artificial entre los latinos. Los colaboradores de este desarrollo son un equipo muy loco y genial que fueron estudiantes de programación y piratería de Daniel Dieser en la ciudad de Puerto Madryn, Argentina. Ellos son: Dante Vargas, Cristian Aparicio, Mauricio Vega, Pichu y Matías Giménez
+
+https://www.youtube.com/watch?v=0dOnX5DsTNM&t=30s
+
+Para comenzar a clonar el repositorio, puede ejecutar este código en ubuntu en una PC o en una pi raspberry. Una vez clonado, ejecuta el archivo: speakyou.py de la siguiente manera: python3 speakyou.py Seguramente tendrás errores ya que tendrás que instalar todas las dependencias, para instalarlas ejecuta lo siguiente: sudo pip3 install "y el nombre de la biblioteca". Esto es si estás en python3 pero: sudo pip install "y el nombre de la biblioteca". Debe instalar python pip antes.
+
+Una vez que instales todo, debes crear una aplicación en https://wit.ai/. Entra en ingenio y crea tu aplicación con las entidades que quieras, puedes mirar el archivo: "jarvispoc.py" para que crees las entidades tal como se crean allí, si eres nuevo en esto te conviene hacerlo de esa manera camino.
+
+JarvisIA puede trabajar con wit.ai o puede tener su propio discurso al texto, wit.ai es una muy buena alternativa si está comenzando y le permitirá comprender el lenguaje natural para desarrolladores, de esa manera usted puede traducir su voz que es grabado en el archivo test1.wav
+
+Luego irá a la configuración de su aplicación, en la configuración y allí va a copiar su token de acceso al servidor, ese token de acceso lo pegará en el archivo: "utils.py".
+
+Ahora debe instalar Google Speech para la voz de su asistente. Ingrese a la carpeta de voz de google y siga los pasos para instalar el archivo Léame.
+
+Ahora dependerá de cómo quiera usar su asistente, puede ejecutar todo en un solo Raspberry pi, o puede usar un servidor y Raspberry Pi como módulos que controlan los componentes electrónicos de su hogar. Mire el archivo jarvispoc.py para comprender cómo hacer estas pequeñas modificaciones. JarvisIA es totalmente modular, puede usar lo que quiera y modificarlo según sus necesidades. Para comenzar solo: diga palabras como: "Hola, Jarvis" o "Quiero escuchar travis" o "Quiero saber sobre Albert Einstein" o "¿Cuál es la fecha actual" o "o cuál es la hora actual" o "¿Cuál es el clima en Puerto Madryn?" (modifique su ciudad en el archivo clima1.py). Esperamos que lo disfrutes mucho y que puedas aprender jugando con él, no hemos lanzado todo el código, pero una gran parte para fomentar el desarrollo de asistentes de voz en América Latina y porque sabemos que la forma de aprender es leer otro código y pruebas, así que no tengas miedo y diviértete! Una vez que tengas todo listo, solo tienes que ejecutar: python3 speakyou.py ¡Feliz hackeo!
