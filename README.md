@@ -23,4 +23,5 @@ Now it will depend on how you want to use your assistant, you can run everything
 JarvisIA is totally modular, you can use what you want and modify it to your needs.
 To start alone: ​​say words like: "Hello Jarvis" or "I want to hear travis" or "I want to know about Albert Einstein" or "what is the current date" or "or what is the current time" or "what is the weather in puerto madryn "(modify your city in the clima1.py file).
 We hope you enjoy it a lot and you can learn by playing with it, we have not released all the code but a great part to encourage the development of voice assistants in Latin America and because we know that the way to learn is reading another code and testing so do not be afraid and have fun! 
+Once you have everything ready you just have to run: python3 speakyou.py
 Happy hacking!!
