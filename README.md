@@ -14,3 +14,13 @@ JarvisIA can work with wit.ai or you can have your own speech to text, wit.ai is
 
 Then you will go to the configuration of your app, in setting and there you will copy your
 Server Access Token, that access token you will paste in the file: "utils.py".
+
+
+Now you have to install Google Speech for your assistant's voice. Enter
+to the google speech folder and follow the steps of installing the readme file.
+
+Now it will depend on how you want to use your assistant, you can run everything in one raspberry pi, or you can use a server and raspberry pi as modules that control the electronics of your home. Look at the jarvispoc.py file to understand how to make these small modifications.
+JarvisIA is totally modular, you can use what you want and modify it to your needs.
+To start alone: ​​say words like: "Hello Jarvis" or "I want to hear travis" or "I want to know about Albert Einstein" or "what is the current date" or "or what is the current time" or "what is the weather in puerto madryn "(modify your city in the clima1.py file).
+We hope you enjoy it a lot and you can learn by playing with it, we have not released all the code but a great part to encourage the development of voice assistants in Latin America and because we know that the way to learn is reading another code and testing so do not be afraid and have fun! 
+Happy hacking!!
