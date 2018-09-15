@@ -23,6 +23,7 @@ def habla(texto):
     engine.runAndWait()
 
 while True:
+    #uncomment this line if you use a button to start recording on a raspberry
     #input_state = GPIO.input(18)
     #if input_state == False:
        # print('Button Pressed')
