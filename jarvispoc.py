@@ -4,7 +4,7 @@
 # -*- coding: utf-8 -*-
 # JarvisIA is an idea of Daniel Dieser @initiasur, @NiperiaLab, independent robotics researcher and I.A. JarvisIA is the first voice assistant in Spanish and was created to encourage the use and development of Artificial Intelligence technologies among Latinos.
 #The collaborators of this development are a cool team that were students of programming and hacking Daniel Dieser in the city of Puerto Madryn, Argentina. They are: Dante Vargas, Cristian Aparicio, Mauricio Vega, Pichu @MgMoy1, and Matias Gimenez.
-
+#aquí puedes colocar tus propias entidades o configurar Jarvis a tu gusto.
 import os, sys
 #from flask import Flask, request
 from utils import wit_response, wit_access_token
