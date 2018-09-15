@@ -35,11 +35,11 @@ https://www.youtube.com/watch?v=0dOnX5DsTNM&t=30s
 
 Para comenzar debes clonar el repositorio, puede ejecutar este código en S.O ubuntu en una PC o en una raspberry pi. Una vez clonado, ejecuta el archivo: speakyou.py de la siguiente manera: python3 speakyou.py Seguramente tendrás errores ya que tendrás que instalar todas las dependencias, para instalarlas ejecuta lo siguiente: sudo pip3 install "y el nombre de la biblioteca". Esto es si estás en python3 pero si estás en python 2.7 hacelo de la siguiente manera: sudo pip install "y el nombre de la biblioteca". Debe instalar python pip antes.
 
-Una vez que instales todo, debes crear una aplicación en https://wit.ai/. Entra en ingenio y crea tu aplicación con las entidades que quieras, puedes mirar el archivo: "jarvispoc.py" para que crees las entidades tal como se crean allí, si eres nuevo en esto te conviene hacerlo de esa manera camino.
+Una vez que instales todo, debes crear una aplicación en https://wit.ai/. Entra en wit y crea tu aplicación con las entidades que quieras, puedes mirar el archivo: "jarvispoc.py" para que crees las entidades tal como se crean allí, si eres nuevo en esto te conviene hacerlo de esa manera.
 
-JarvisIA puede trabajar con wit.ai o puede tener su propio traductor de voz a texto, wit.ai es una muy buena alternativa si está comenzando y te permitirá comprender el lenguaje natural para desarrolladores, de esa manera vas a poder traducir tu voz a texto que es grabada en el archivo test1.wav
+JarvisIA puede trabajar con wit.ai o puede tener su propio traductor de voz a texto, nosotros usamos tensorflow para ese propósito: https://www.tensorflow.org, wit.ai es una muy buena alternativa si está comenzando y te permitirá comprender el lenguaje natural para desarrolladores, de esa manera vas a poder traducir tu voz a texto que es grabada en el archivo test1.wav
 
-Luego irás a la configuración de tu aplicación, en la configuración y allí va a copiar su token de acceso al servidor, ese token de acceso lo pegarás en el archivo: "utils.py".
+Luego irás a la configuración de tu aplicación, en la configuración y allí vas a copiar tu token de acceso al servidor, ese token de acceso lo pegarás en el archivo: "utils.py".
 
 Ahora debe instalar Google Speech para la voz de tu asistente. Ingresa a la carpeta de voz de google y siga los pasos para instalar el archivo Readme.
 
