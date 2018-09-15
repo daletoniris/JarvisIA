@@ -9,7 +9,7 @@ import os, sys
 from wit import Wit 
 from gnewsclient import gnewsclient
 
-wit_access_token = "N3NSTRW4URUL3EMK3EMXJQKC6XRKUGFA"
+wit_access_token = "aquí coloca tu server acces token"
 client = Wit(access_token = wit_access_token)
 
 def wit_response(message_text):
