@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+google_speech/__init__.py
+google_speech/__main__.py
+google_speech/bin_dep.py
+google_speech/colored_logging.py
+google_speech.egg-info/PKG-INFO
+google_speech.egg-info/SOURCES.txt
+google_speech.egg-info/dependency_links.txt
+google_speech.egg-info/entry_points.txt
+google_speech.egg-info/requires.txt
+google_speech.egg-info/top_level.txt
