@@ -7,7 +7,7 @@ from utils1 import wit_response
 import telebot
 import time
 
-bot = telebot.TeleBot("578056637:AAF8HZNQkr-PBwTvDI8hsuR133PFT8ZDmFE")
+bot = telebot.TeleBot("5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") #colca acá el TOKEN de tu bot
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
